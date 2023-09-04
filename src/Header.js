@@ -1,10 +1,11 @@
 import React from 'react';
+import minhaImagem from './Imagens/fundo.jpg'
 
 function Header() {
   return (
     <header className="header">
       <img
-        src="https://www.maradiegoli.com.br/wp-content/uploads/2017/11/Estresse-7.gif"
+        src={minhaImagem}
         alt="Imagem de relaxamento"
         className="header-image"
       />
