@@ -1,4 +1,5 @@
 import React from 'react';
+import minhaImagem2 from './Imagens/meditacao.png'
 
 function PreventionTab() {
   return (
@@ -29,18 +30,27 @@ function PreventionTab() {
     </ul>
     </div>
     
+    <div className="image-between-video-and-list">
+        <img
+          src={minhaImagem2}
+          alt="Imagem de exemplo"
+        />
+      </div>
+
     <div className="image-container">
-  <h1>Ouça esse podcast e saiba tudo sobre o Burnout</h1>
-  <iframe
-    width="620"
-    height="315"
-    src="https://www.youtube.com/embed/TuGbn-9jK1g?si=DcwmWO4SUTVcsMCj"
-    title="YouTube video player"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-  ></iframe>
-</div>
+        <h1>Ouça esse podcast e saiba tudo sobre o Burnout</h1>
+        <iframe
+          width="620"
+          height="315"
+          src="https://www.youtube.com/embed/TuGbn-9jK1g?si=DcwmWO4SUTVcsMCj"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
+      </div>
+
+     
     </div>
   );
 }
