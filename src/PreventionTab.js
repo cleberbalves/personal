@@ -1,4 +1,5 @@
 import React from 'react';
+import minhaImagem2 from './Imagens/professi.jpg';
 
 function PreventionTab() {
   return (
@@ -29,11 +30,21 @@ function PreventionTab() {
     </ul>
     </div>
     
-    <div className="image-container">
+   
+  <div className="image2"> 
+  <img
+          src={minhaImagem2}  // Substitua pelo caminho da sua imagem
+          alt="Descrição da imagem"
+          width="450"
+    height="440"
+        /> </div>
+
+
+ <div className="image-container">
   <h1>Ouça esse podcast e saiba tudo sobre o Burnout</h1>
   <iframe
     width="620"
-    height="315"
+    height="380"
     src="https://www.youtube.com/embed/TuGbn-9jK1g?si=DcwmWO4SUTVcsMCj"
     title="YouTube video player"
     frameBorder="0"
