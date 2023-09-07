@@ -35,15 +35,15 @@ function PreventionTab() {
   <img
           src={minhaImagem2}  // Substitua pelo caminho da sua imagem
           alt="Descrição da imagem"
-          width="450"
-    height="440"
+          width="300"
+    height="350"
         /> </div>
 
 
- <div className="image-container">
-  <h1>Ouça esse podcast e saiba tudo sobre o Burnout</h1>
+  <div className="image-container">
+  <h2>Ouça esse podcast e saiba tudo sobre o Burnout</h2>
   <iframe
-    width="620"
+    width="450"
     height="380"
     src="https://www.youtube.com/embed/TuGbn-9jK1g?si=DcwmWO4SUTVcsMCj"
     title="YouTube video player"

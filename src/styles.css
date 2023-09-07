@@ -258,3 +258,41 @@ nav {
 nav button {
   margin: 5px; /* Adicione margem aos botões para espaçamento */
 }
+
+@media screen and (min-width: 768px) {
+  .prevention-tab-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .text-container {
+    flex: 1;
+    margin-right: 1px;
+  }
+  .image2 {
+    flex: 1;
+  }
+  .image-container {
+    flex: 0;
+  }
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 750px) {
+  .prevention-tab-container {
+    flex-direction: column;
+  }
+  
+  .image2,
+  .image-container {
+    width: 90%;
+    margin: 0px 0;
+  }
+}
+.image2 {
+  flex: 1;
+}
+
+.text-container {
+  flex: 1;
+  margin-right: 1px;}
